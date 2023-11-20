@@ -1,0 +1,193 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*section1 start*/
+.section1{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.section1 .text1 a, .text2 a, .text3 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid rgb(59, 58, 58);
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    
+}
+
+.section1 .text1 a:hover{
+    box-shadow: 2px 2px 5px #fff;
+    color: rgb(105, 161, 209);
+    background-color: darkslategray;
+}
+.section1 .text2 a:hover{
+    box-shadow: 2px 2px 5px #fff;
+    color: rgb(105, 161, 209);
+    background-color: darkslategray;
+}
+.section1 .text3 a:hover{
+    box-shadow: 2px 2px 5px #fff;
+    color: rgb(105, 161, 209);
+    background-color: darkslategray;
+}
+/*section1 end*/
+/*section2 start*/
+.section2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.section2 .text4{
+    width: 600px;
+    
+}
+.section2 .text4 h4{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+.section2 .text4 h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: -15px;
+    color: rgb(181, 204, 224);
+}
+.section2 .text4 p{
+    margin-top: -20px;
+    line-height: 25px;
+    color: aliceblue;
+    opacity: 0.5;
+}
+.section2 .text4 button{
+    padding: 10px 25px;
+    font-size: 18px;
+    color: rgb(105, 161, 209);
+    background-color: rgb(59, 58, 58);
+    cursor: pointer;
+}
+.section2 .text4 button:hover{
+    background-color: darkslategray;
+    transition: all 0.2s ease-in;
+    box-shadow: 0 2px 5px #fff;
+}
+.section2 .image{
+    margin-top: 20px;
+} 
+.section2 .image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid darkslategray;
+    box-shadow: 5px 5px 10px #1badb5;
+}
+/*section2 end*/
+/*section3 start*/
+.section3{
+    width: 100%;
+    height: 150px;
+    background-color: darkslategray;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3 .project{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(105, 161, 209);
+}
+.section3 .project p{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.section3 .project h1{
+    margin-top: -15px;
+    border: 1px solid darkslategray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.section3 .project h1:hover{
+    background-color: rgb(105, 161, 209);
+    color: #fff;
+    box-shadow: 2px 2px 5px #fff;
+    transition: 0.3s all ease-in;
+}
+/*section3 end*/
+/*section4 start*/
+.section4{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(14, 116, 174);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section4 .msg{
+    margin-left: 170px;
+}
+.section4 .icon{
+    margin-right: 170px;
+}
+.section4 .msg h3{
+    font-size: 20px;
+    opacity: 0.8;
+}
+.section4 .msg input{
+    padding: 10px 20px;
+}
+.section4 .msg .sub{
+    margin-left: -5px;
+    background-color: darkslategray;
+    color: #fff;
+    cursor: pointer;
+}
+.section4 .icon h3{
+    font-size: 20px;
+    opacity: 0.8;
+}
+.section4 .icon a{
+    text-decoration: none;
+    padding: 0 15px;
+    margin-left: -15px;
+    color: #fff;
+}
+.section4 .icon a:hover{
+    color: rgb(19, 8, 168);
+}
+/*section4 end*/
+/*section5 start*/
+.section5 div{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    background-color: darkslategray;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.section5 div p{
+    margin-top: 7px;
+}
